@@ -1,5 +1,5 @@
 {
-  "name": "samplesettings",
+  "name": "samplesettingsprocessorclient",
   "version": "1.0.0",
   "description": "An implementation of an attempted transaction family using the sawtooth JS sdk",
   "main": "index.js",
@@ -8,9 +8,14 @@
     "start": "node index.js"
   },
   "author": "",
-  "license": "Apache-2.0",
+  "license": "ISC",
   "dependencies": {
-    "cbor": "^3.0.0",
-    "sawtooth-sdk": "file:./../../javascript"
+    "cbor": "^4.1.0",
+    "request": "^2.87.0",
+    "require": "^2.4.20",
+    "request-promise": "^4.2.2",
+    "sawtooth-sdk": "^1.0.4"
   }
 }
+
+
