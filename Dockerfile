@@ -1,8 +1,8 @@
 FROM node:carbon
 
-WORKDIR /usr/src/blockchain/app
+WORKDIR /usr/src/app
 
-COPY *.json ./
+COPY package*.json ./
 
 RUN npm install
 
