@@ -12,7 +12,7 @@ const cbor = require('cbor')
 const crypto = require('crypto')
 const {protobuf} = require('sawtooth-sdk')
 const TP_FAMILY = 'tp'
-const TpPayload = require ('../sampleSettingsProcessorClient/payload')
+const TpPayload = require ('../Processor/payload')
 
 
 test = new TpPayload (54, "Kewl Stuff", 1.0, 1, 1, 8794561234, "forever");
