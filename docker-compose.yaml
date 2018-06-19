@@ -10,7 +10,7 @@ services:
     entrypoint: settings-tp -vv -C tcp://validator:4004
 
   tp:
-    image: deestroyah/deestroyah:2.0
+    image: deestroyah/samplesettingsprocessorclient:2.0
     container_name: deestroyah-processor
     depends_on:
       - validator
