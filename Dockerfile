@@ -1,6 +1,6 @@
 FROM node:carbon
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/blockchain/app
 
 COPY *.json ./
 
