@@ -14,7 +14,7 @@ const _hash = (x) =>
 // loading payload
 const TP_Family = 'tp'
 
-const payloadBytes=require('../Processor/payload.js')
+const payloadBytes=require('../payload.js')
 
 //creating a transaction header
 const transactionHeaderBytes = protobuf.TransactionHeader.encode({
